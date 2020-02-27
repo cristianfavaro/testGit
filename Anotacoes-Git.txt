@@ -179,3 +179,10 @@ git reset
 git reset Numero --hard
 #aqui ele apaga tudo. 
 
+
+### como trabalhar no github em colaboração 
+
+
+git pull origin #master para trazer as coisas para o master da minha mesa.
+
+git checkout -b index-html
