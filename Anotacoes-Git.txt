@@ -82,4 +82,28 @@ git checkout -b feature-a
 git checkout master 
 #volto para o master para criar a terceira 
 
+git checkout -b feature-b
+#criei o outro arquivo js
 
+#dei o add e o commit para mandar para a branch b
+
+
+git branch -a
+
+#todos os braches estão aqui. separados.
+
+
+======= Merging branches 
+
+#temos de ir para o perfil que queremos
+#temos de estar na barnch que vamos fazer o merge. nesse caso o master
+
+
+git checkout master
+
+
+git merge feature-a
+#escolhi a primeira para fazer o merge. 
+
+
+git merge feature-b
