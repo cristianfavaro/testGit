@@ -107,3 +107,27 @@ git merge feature-a
 
 
 git merge feature-b
+#aqui ele deu merge by the recursive strategy
+#porque o segundo não tem o a, mas agora vai ter os dois. 
+
+====== Conflitos
+
+git checkout -b feature-c
+#criamos um novo
+#criei o css dentro do master para testar o problema
+
+#addicionei e fiz o commit 
+
+#agora eu testei dentro do feature c e joguei o css com um padding
+
+git merge feature-c
+
+#deu um conflito. tenho dois arquivos com conflito 
+
+
+
+
+
+
+
+
