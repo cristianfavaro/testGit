@@ -123,7 +123,16 @@ git checkout -b feature-c
 git merge feature-c
 
 #deu um conflito. tenho dois arquivos com conflito 
+#eu apenas tenho de ir no arquivo e arrumar o conflito de fusão que ele apontou
 
+#depois
+
+git add . 
+
+git commit #não preciso passar o comentário porque é merge. ele depois vai abrir uma tela preta escura que posso ignorar. 
+
+git log --oneline
+# agora tudo está certo. 
 
 
 
