@@ -71,3 +71,15 @@ git branch -D feature-1
 # aqui ele apaga mesmo sem ter dado certo.
 
 
+#trabalhando com dois branches ao mesmo tempo 
+
+git checkout -b feature-a
+#aqui ele criou a branche e mudou para ele de uma vez
+
+#criei o arquivo novo de js para testar
+
+
+git checkout master 
+#volto para o master para criar a terceira 
+
+
