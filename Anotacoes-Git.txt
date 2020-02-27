@@ -138,6 +138,10 @@ git log --oneline
 
 ####### desfazer coisas 
 
+git log --oneline
+#vou precisar desses para ver os commits que eu fiz 
+
+
 
 checkout commit #mais seguro
 
@@ -156,4 +160,22 @@ checkout commit #mais seguro
 
 git checkout -b numeroDoCommit
 
+git checkout master 
+#para voltar 
+
+
+git revert NumeroDoCommit 
+
+#não precisamos mudar nada na tela preta. 
+# a diferenca é que ele remove um commit adicionando um outro commit. 
+
+
+git reset 
+#ele volta para um ponto específico. destruindo todas as mudanças que você fez de lá em diante
+
+#ele joga o commit para dentro do editor. mas apaga o commit do historico.
+#git 
+
+git reset Numero --hard
+#aqui ele apaga tudo. 
 
