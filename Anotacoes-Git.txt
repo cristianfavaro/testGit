@@ -1,0 +1,86 @@
+Anotações-Git
+
+
+### como iniciar o repositorio 
+
+git init
+git add .
+
+git commit -m "First commit"
+
+
+git log --oneline  #mostra as linhas de commit para eu poder recuperar os códigos
+
+
+#copia o link do repositorio
+
+
+$ git remote add origin "remote repository URL" ### no aspas
+# Define o novo remote
+$ git remote -v
+# Verifica a nova URL remota
+
+
+$ git push -u origin master
+# Faz push das alterações no seu repositório local até o repositório remote especificado como a origem
+
+
+##### trabalhando com branches 
+
+git branch feature-1 #criar esse branche para trabalhar com uma funcionalidade específica do projeto. 
+
+
+git branch -a
+# listando todos os branches
+
+  feature-1
+* master  ## quer dizer que eu estou nesse branch
+  remotes/origin/master
+
+
+git checkout feature-1
+#aqui eu mudo a ferramenta para esse novo lugar.
+
+git branch -a #agora vai mostrar que o outro arquivo é que vale
+
+####começando a trabalhar na nova ferramenta 
+
+#vamos mudar um arquivo. Criei um chamado feature.js com qualquer coisa
+
+git status #a mudança aparece. 
+
+
+git add .
+
+git status # aparece verde
+
+git commit -m "added new feature"
+
+git checkout master 
+#aqui eu volto para a master. Veja que assim ele some com o arquivo do javascript. SUPER LEGAL!
+
+
+#### apagar a branch
+
+git branch -d feature-1 
+
+#aqui ele manda a mensgem de que a branch não está totalmente merged 
+
+git branch -D feature-1 
+
+# aqui ele apaga mesmo sem ter dado certo.
+
+
+#trabalhando com dois branches ao mesmo tempo 
+
+git checkout -b feature-a
+#aqui ele criou a branche e mudou para ele de uma vez
+
+#criei o arquivo novo de js para testar
+
+
+git checkout master 
+#volto para o master para criar a terceira 
+
+
+
