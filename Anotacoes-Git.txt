@@ -186,3 +186,7 @@ git reset Numero --hard
 git pull origin #master para trazer as coisas para o master da minha mesa.
 
 git checkout -b index-html
+
+#esqueci de jogar as imagens. o que eu faço?
+
+git checkout -b img-update
