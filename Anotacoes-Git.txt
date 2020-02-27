@@ -136,7 +136,24 @@ git log --oneline
 
 
 
+####### desfazer coisas 
 
 
+checkout commit #mais seguro
+
+#ele mostra como estava em outro momento
+
+revert commit 
+#ele reverte as mudanças. vai colocar um x no commit como se ele não tivesse acontecido
+#não apaga. mas como se tivesse apagado
+
+reset commit # mais perigoso 
+#ele vai permanentemnete te levar para o momento em que esse commit não existia. 
+
+
+
+checkout commit #mais seguro
+
+git checkout -b numeroDoCommit
 
 
